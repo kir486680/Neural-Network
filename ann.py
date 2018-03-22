@@ -42,16 +42,13 @@ X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
 
-import tkinter
-top = tkinter.Tk()
-# Code to add widgets will go here...
-top.mainloop()
 
 
 # Part 2 - Now let's make the ANN!
 
 # Importing the Keras libraries and packages
 import keras
+from keras.utils import plot_model
 from keras.models import Sequential
 from keras.layers import Dense
 
