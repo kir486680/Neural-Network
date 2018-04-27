@@ -44,8 +44,6 @@ X_test = sc.transform(X_test)
 
 
 
-# Part 2 - Now let's make the ANN!
-
 # Importing the Keras libraries and packages
 import keras
 from keras.utils import plot_model
